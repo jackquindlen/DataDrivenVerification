@@ -14,7 +14,7 @@ The first example is the Van der Pol oscillator taken from previous nonlinear an
 +Ufuk Topcu, Andrew K. Packard, Peter Seiler, and Gary J. Balas. Robust region-of-attraction estimation. IEEE Transactions on Automatic Control, 55(1):137{142, January 2010.
 
 ## Model Reference Adaptive Controllers
-The second example is a concurrent learning model reference adaptive controller (CL-MRAC) implementation.  The necessary files are found in the folder location: "Model Reference Adaptive Control/Simple MRAC". The training samples are found in the file "trainingData.mat" and the samples for testing the trained SVM are found in the file "testingData.mat".  
+The second example is a concurrent learning model reference adaptive controller (CL-MRAC) implementation.  The necessary files are found in the folder location: "Model Reference Adaptive Control/Simple MRAC". The main file is "train_SVM.m" - everything is controlled from there.  The training samples are found in the file "trainingData.mat" and the samples for testing the trained SVM are found in the file "testingData.mat".  
 
 ###### For more information:
 
