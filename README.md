@@ -38,4 +38,4 @@ The files and data are found in the "Reinforcement Learning Acrobot" folder.  Th
 
 ###### For more information:
 
-+ A. Barto and R. Sutton. Reinforcement Learning: An Introduction. MIT Press, 1998
++A. Barto and R. Sutton. Reinforcement Learning: An Introduction. MIT Press, 1998
