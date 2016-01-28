@@ -11,7 +11,7 @@ The necessary files are found in the folder location: "Van der Pol Oscillator". 
 
 ###### For more information:
 
-+Ufuk Topcu, Andrew Packard, and Peter Seiler. Local stability analysis using ssimulation and sum-of-squares programming. Automatica, 44(10):2669{2675, 2008.
++Ufuk Topcu, Andrew Packard, and Peter Seiler. Local stability analysis using simulation and sum-of-squares programming. Automatica, 44(10):2669{2675, 2008.
 
 +Ufuk Topcu, Andrew K. Packard, Peter Seiler, and Gary J. Balas. Robust region-of-attraction estimation. IEEE Transactions on Automatic Control, 55(1):137{142, January 2010.
 
@@ -36,3 +36,6 @@ The last example problem is a reinforcement learning-based controller for a two-
 
 The files and data are found in the "Reinforcement Learning Acrobot" folder.  The main file is "AcrobotSvm.m".  All that is needed is to run that file.  The data is stored in the "acrobot_data.mat" file.  For both the training and testing data, there are two variables of 4000 parameter samples.  The "test-data" and "train-data" variables are 4000x4 matrices, with each column corresponding to angular positions \theta1 and \theta2 and angular velocities \dot{\theta1} and \dot{\theta2}, in that order.  The 4000x1 vectors "test-class" and "train-class" are the true labels corresponding to each sample in the data matrices.  The initial conditions were randomly varied between: \theta1: [-pi/2, +pi/2], \theta2: [-pi/2, +pi/2], \dot{\theta1}: [-2pi, +2pi], \dot{\theta2}: [-2pi, +2pi].  
 
+###### For more information:
+
++ A. Barto and R. Sutton. Reinforcement Learning: An Introduction. MIT Press, 1998
